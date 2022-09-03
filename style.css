@@ -1,0 +1,105 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(199, 162, 162);
+    width: 50rem;
+    /* height: 30rem; */
+    margin-bottom: 2rem;
+    margin: auto;
+}
+form{
+    margin: 5.5rem;
+    padding-bottom: 2em;
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+#label{
+    font-size: medium;
+}
+
+.box{
+    /* background-color: red; */
+    margin-left: 3rem;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#Nametag{
+    font-weight: 900;
+}
+#fullName{
+    margin-left: 3rem;
+}
+#nameInput{
+    padding: 10px;
+    width: 25rem;
+    height: 1rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-left: 20px;
+    background-color: rgb(246, 244, 244);
+    border: none;
+    margin-bottom: 2rem;
+
+}
+.choose {
+    padding: 10px;
+    width: 27rem;
+    height: 2.5rem;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 3rem;
+    padding-left: 20px;
+    background-color: rgb(246, 244, 244);
+    color: gray;
+    border: none;
+    margin-bottom: 2rem;
+}
+button{
+text-align: center;
+display: block;
+margin: 0 auto;
+width: 6rem;
+height: 2rem;
+border-radius: 15px;
+border: none;
+
+}
+
+.status{
+    margin: 0.6em;
+    height: 8px;
+    width: 98%;
+    display:  flex;
+    justify-content: left;
+    align-items: center;
+}
+.status .bar{
+    height: 100%;
+    /* width: ; */
+    border-radius: 12px;
+    background-color: red;
+}
+button{
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button svg{
+    height: 1.2em;
+    width: 1.2em;
+    line-height: 1.5em;
+}
+input.error, select.error{
+    outline: none;
+    border: 1px dashed red !important;
+    font-weight: 300;
+    color: red !important;
+}

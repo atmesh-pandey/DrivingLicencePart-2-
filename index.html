@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="#" id="registration_form">
+            <div class="status">
+                <div class="bar"></div>
+            </div>
+            <div class="heading">
+                <h1 style="color: red;">let's get started!</h1>
+                <p style="color: gray;">Add your details(As per your registered recoads)</p>
+            </div>
+
+            <div class="box">
+                <div id="fullName">
+                    <label for="name" id="Nametag">Place where Driving License was issued</label><br>
+                    <input type="text" name="placeName" id="nameInput" placeholder="Emter place Name"><br>
+            </div>
+            <label style="margin-left: 3rem; font-weight:900;">Issued Year of License</label><br>
+            <select name="issue_Select" class="choose required" placeholder="Choose Issued Year of License">
+                <option value="default" disabled selected>Choose Issued Year of License</option>
+                <option value="JLC">2022</option>
+                <option value="Zenith">2021</option>
+                <option value="Cartier">2020</option>
+                <option value="Omega">2019</option>
+                <option value="Omega">2018</option>
+            </select><br>
+            <label style="margin-left: 3rem; font-weight:900;">Type of Previous Driving License</label><br>
+            <select name="expired_Select" class="choose required" placeholder="Choose Issued Year of License">
+                <option value="default" disabled selected>Choose Expaired Year of License</option>
+                <option value="JLC">2022</option>
+                <option value="Zenith">2021</option>
+                <option value="Cartier">2020</option>
+                <option value="Omega">2019</option>
+                <option value="Omega">2018</option>
+            </select><br>
+            <button class="back">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24">
+                    <g data-name="Layer 2">
+                        <path
+                        d="M13.83 19a1 1 0 0 1-.78-.37l-4.83-6a1 1 0 0 1 0-1.27l5-6a1 1 0 0 1 1.54 1.28L10.29 12l4.32 5.36a1 1 0 0 1-.78 1.64z"
+                        data-name="arrow-ios-back" />
+                    </g>
+                </svg>
+                Back
+            </button>
+        </div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
